@@ -1,0 +1,60 @@
+body {
+    background-image: url('background.png'); /* URL to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color on top of the background */
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 48%; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+.containerz {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.tabs {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    
+}
+
+.tabs a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    
+}
+
+.tabs a:hover {
+    background-color: #555;
+}
+p {
+    margin-top: 40px;
+}
